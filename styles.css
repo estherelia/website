@@ -1,0 +1,500 @@
+/* Styles for my site */
+
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  flex: 1 0 auto;
+  align-items: center;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: right;
+	font-family: ‘Cabin Condensed’, sans-serif;	
+}
+
+header img {
+	max-width: 10em;
+	margin: 1em;
+}
+
+.currentpage {
+	color: rgba(228,229,29,1);
+}
+
+nav a {
+	text-decoration: none;
+	color: rgba(236,135,81,1);
+	font-family: ‘Cabin Condensed’, sans-serif;
+}
+
+nav a:hover {
+	color: rgba(228,229,29,1);
+}
+
+
+nav a:active {
+    color: rgba(228,229,29,1);
+}
+
+
+nav ul {
+	list-style-type: none;
+	text-align: right;
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	margin: 1em;
+	margin-top: 2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 500px;
+}
+
+footer {
+	background-color: rgba(227,165,203,1);
+	padding: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+	
+
+footer img {
+	position: center;
+	max-width: 8em;
+}	
+	
+
+.social {
+	max-width: 2em;
+	margin: 1em;
+}
+
+
+.icons a {
+	position: right;
+	text-decoration: none;
+}
+
+
+.top {
+	background-color: white;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+.homepage {
+	background-image: url("pictures/backgrounds/logo-pattern.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.contactpage {
+	background-image: url("pictures/backgrounds/bird-pattern.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.illustration {
+	background-image: url("pictures/backgrounds/minotaur-pattern.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.painting {
+	background-image: url("pictures/backgrounds/pig-pattern.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.zines {
+	background-image: url("pictures/backgrounds/mat-pattern.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.middle {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	max-width: 900px;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 5%;
+}
+
+.middle div {
+	margin: 1em;
+}
+
+.middle img {
+	max-width: 12em;
+	width: 100%;
+	background-color: white;
+	margin: 1em;
+}
+
+.middle h1{
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 2em;
+	color: rgba(38,166,223,1);
+	text-align: center;
+	margin: 3em;
+	padding: 1em;
+}
+
+
+.contact {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 5%;
+}
+
+.contact img {
+	/* position: absolute; */
+	width: 100%;
+	max-width: 400px;
+	
+}
+
+.contact h1 {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 2em;
+	color: rgba(38,166,203,1);
+}
+
+.contact p {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(38,166,203,1);
+	text-align: center;
+	line-height: 1.6;
+}
+
+.contact a {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(38,166,223,1);
+	text-align: left;
+}
+
+.contact a:hover {
+	color: rgba(227,165,203,1);
+}
+
+.about {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding: 5%;
+}
+
+.about h1 {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 2em;
+	color: rgba(227,165,203,1);
+}
+
+.about p {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(227,165,203,1);
+	text-align: center;
+	line-height: 1.6;
+}
+
+.about a {
+	color: rgba(227,165,203,1);
+}
+
+.about a:hover {
+	color: rgba(235,123,63,1);
+}
+
+
+/* 
+
+.middle img:hover, .middle img:active {
+ 	background-color:rgba(236,135,81,1);
+ 	
+}
+ */
+
+/*
+.wordbox:hover, .wordbox:active {
+    font-size: 120%;
+}
+*/
+.wordbox {
+	color: white;
+	text-align: center;
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	background-color: rgba(236,135,81,1);
+	padding: .5em;	
+	display: block;
+	margin: 1em;
+}
+/*
+.paintingwordbox:hover, .paintingwordbox:active {
+    font-size: 120%;
+}
+*/
+.paintingwordbox {
+	color: white;
+	text-align: center;
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	background-color: rgba(38,166,223,1);
+	padding: .5em;	
+	display: block;
+	margin: 1em;
+}
+/*
+.zineswordbox:hover, .zineswordbox:active {
+    font-size: 120%;
+}
+*/
+.zineswordbox {
+	color: white;
+	text-align: center;
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	text-decoration: none;
+	background-color: rgba(227,165,203,1);
+	padding: .5em;	
+	display: block;
+	margin: 1em;
+}
+
+.details {
+	background-color: white;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.details div {
+	margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.details p {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: black;
+	text-align: right;
+	line-height: 3;
+	max-width: 30em;
+}
+
+.details img {
+	max-width: 600px;
+	width: 100%;
+	margin: 1em;
+}
+
+.details a {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(235,123,63,1);
+}
+
+.details a:hover {
+	color: rgba(228,229,29,1);
+}
+
+
+.title h1 {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 2em;
+	color: rgba(38,166,223,1);
+	text-align: left;
+	margin: 3em;
+}
+
+.title a {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(235,123,63,1);
+	text-align: left;
+	margin: 2em;
+}
+
+.title a:hover {
+	color: rgba(228,229,29,1);
+}
+
+.images {
+	width: 100%
+}
+
+.resume {
+	background-color: white;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	width: 100%;
+	max-width: 1000px;
+}
+
+.resume div {
+	margin: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.resume img {
+	max-width: 1000px;
+	width: 100%;
+	border: 1px solid gray;
+	box-shadow: 3px 4px 6px rgba(0,0,0,.5);
+}
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+header img {
+	width: 100%
+	max-width: 10em;
+
+}
+
+.top {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav ul {
+	text-align: center;
+	font-size: .85em;
+	margin: auto;
+	margin-bottom: 1em;
+	width: 100%;
+	max-width: 300px;
+	padding: 0;
+}
+
+footer {
+	align-items: center;
+}
+	
+
+footer img {
+	position: center;
+	width: 100%;
+	max-width: 5em;
+}	
+	
+
+.social {
+	width: 100%;
+	max-width: 1.5em;
+	margin: 1em;
+}
+
+.details {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.details div {
+	margin: 1em;
+}
+
+.details p {
+	text-align: center;
+	line-height: 2;
+}
+
+
+.title h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 1em;
+}
+
+.title a {
+	font-family: ‘Cabin Condensed’, sans-serif;
+	font-size: 1em;
+	color: rgba(235,123,63,1);
+	text-align: left;
+	margin: 2em;
+	margin-top: 1em;
+}
+
+.title a:active	 {
+	color: rgba(228,229,29,1);
+}
+
+.middle h1{
+	font-size: 1.5em;
+	margin: .5em;
+}
+	
+}
+
+
+
